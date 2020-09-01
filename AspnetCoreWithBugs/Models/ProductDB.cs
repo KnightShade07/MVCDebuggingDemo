@@ -7,5 +7,9 @@ namespace AspnetCoreWithBugs.Models
 {
     public class ProductDB
     {
+        public static async Task<int> GetProducts()
+        {
+
+        }
     }
 }
