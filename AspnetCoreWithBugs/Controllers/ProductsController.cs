@@ -12,7 +12,10 @@ namespace AspnetCoreWithBugs.Controllers
     public class ProductsController : Controller
     {
         private readonly ProductContext _context;
-
+        /// <summary>
+        /// Not Database Code
+        /// </summary>
+        /// <param name="context"></param>
         public ProductsController(ProductContext context)
         {
             _context = context;
